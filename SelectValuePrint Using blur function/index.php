@@ -5,12 +5,6 @@
 
 </head>
 <body>
-  <?php 
-  include('lib/Database.php');
-  $db = new Database();
-
-  ?>
-
 <form action="" method="POST">
     <table>
       <tr>
@@ -19,11 +13,11 @@
       </tr>
     </table>
    <select name="person" id="person">
-      <option value="">Select a person:</option>
-      <option value="Griffin">Peter Griffin</option>
-      <option value="Griffin">Lois Griffin</option>
-      <option value="Swanson">Joseph Swanson</option>
-      <option value="Quagmire">Glenn Quagmire</option>
+      <option value="">Select a Class:</option>
+      <option value="one">One</option>
+      <option value="two">Two</option>
+      <option value="three">Three</option>
+      <option value="four">Four</option>
     </select>
     <input type="submit" name="submit" id="submit">
 
